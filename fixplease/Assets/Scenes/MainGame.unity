@@ -3692,23 +3692,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
---- !u!114 &1442167789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1442167785}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd2e8b95ddaad6d4ea13d060c79fdfe8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  onLadder: 0
-  vertical: 0
-  horizontal: 0
-  GC: {fileID: 1866034092}
 --- !u!95 &1442167790
 Animator:
   serializedVersion: 5
@@ -5188,7 +5171,7 @@ MonoBehaviour:
   startAnim:
   - {fileID: 1442167790}
   - {fileID: 1962694488}
-  myMove: {fileID: 1442167789}
+  myMove: {fileID: 0}
   audioS:
   - {fileID: 994555961}
   - {fileID: 994555962}
