@@ -86,6 +86,7 @@ public class MovementV2 : MonoBehaviour
 
 
         //MOVE HERE
+        gameObject.transform.position += new Vector3(horizontal, 0, 0) * Time.deltaTime * speed;
     }
 
     private void OnTriggerStay(Collider other)

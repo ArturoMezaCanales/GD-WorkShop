@@ -27,8 +27,18 @@ public class hitFire : MonoBehaviour
             keepScore.score += 10;
         }
     }
-   //ADD FUNCTION HERE
+    //ADD FUNCTION HERE
 
+    private void OnTriggerStay(Collider other)
+    {
+
+
+        if (other.gameObject.tag == "fire")
+        {
+            hitClip.Play();
+            StartCoroutine("endGame");
+        }
+    }
 
     IEnumerator endGame()
     {
